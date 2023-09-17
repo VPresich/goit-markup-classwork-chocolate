@@ -491,7 +491,7 @@
 
 /* ================ /FOOTER ================ */
 
-.footer-page {
+/* .footer-page {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #1e1823;
@@ -618,10 +618,9 @@
   display: flex;
   gap: 8px;
   margin-bottom: 8px;
-}
+} */
 
-.subscribe-input-email {
-  /* width: 207px; */
+/* .subscribe-input-email { 
   width: 307px;
   color: var(--secondary-color);
   background-color: transparent;
@@ -651,7 +650,7 @@
   border: none;
   background-color: var(--accent-color);
   color: var(--secondary-color);
-}
+} */
 
 /* ================ /FOOter ================ */
 

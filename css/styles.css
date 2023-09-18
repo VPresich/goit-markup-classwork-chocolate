@@ -24,7 +24,7 @@
 /* ============= /PAGE HEADER ============= */
 
 /* ================ HERO ================ */
-.hero {
+/* .hero {
   max-width: 1136px;
   padding-top: 381px;
   padding-bottom: 40px;
@@ -141,7 +141,7 @@
 .scroll-down-link:hover .scroll-down-icon,
 .scroll-down-link:focus .scroll-down-icon {
   fill: #ffffff;
-}
+} */
 /* ================ /HERO ================ */
 
 /* ================ BENEFITS ================ */

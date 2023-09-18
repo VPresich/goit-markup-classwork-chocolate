@@ -1,5 +1,5 @@
 .reviews-section-title {
-  margin-bottom: 90px;
+  margin-bottom: 74px;
 }
 
 .reviews-list-item:not(:first-child) {
@@ -8,20 +8,17 @@
 
 .reviews-list {
   display: flex;
-  flex-wrap: wrap;
-  column-gap: 28px;
-  row-gap: 32px;
-  /* margin-bottom: 50px; */
+  column-gap: 16px;
   margin-bottom: 32px;
 }
 
 .reviews-list-item {
   position: relative;
   width: 100%;
-  padding-top: 56px;
-  padding-right: 24px;
-  padding-bottom: 24px;
-  padding-left: 24px;
+  padding-top: 74px;
+  padding-right: 18px;
+  padding-bottom: 42px;
+  padding-left: 18px;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 15px;
   background: var(--secondary-color);
@@ -55,11 +52,12 @@
 
 .leave-review-btn {
   display: block;
-  width: 222px;
-  font-size: 18px;
+  width: 165px;
+  height: 42px;
+
   font-weight: 600;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 100px;
@@ -67,6 +65,7 @@
   color: var(--primary-color);
   background-color: var(--secondary-color);
   transition: color 250ms ease-out, background-color 250ms ease-out;
+  margin-bottom: 40px;
 }
 
 .leave-review-btn:hover,
@@ -76,12 +75,33 @@
 }
 
 @media screen and (min-width: 768px) {
+  .reviews-section-title {
+    margin-bottom: 90px;
+  }
+  .reviews-list {
+    margin-bottom: 50px;
+  }
+
   .reviews-list-item {
     width: calc((100% - 28px) / 2);
+    padding-top: 60px;
+    padding-right: 16px;
+    padding-bottom: 42px;
+    padding-left: 16px;
   }
 
   .reviews-list-item:not(:last-child) {
     display: block;
+  }
+
+  .leave-review-btn {
+    display: block;
+    width: 222px;
+    font-size: 18px;
+    height: 50px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-bottom: 50px;
   }
 }
 
@@ -93,12 +113,11 @@
   .reviews-list-item {
     width: calc((100% - 56px) / 3);
   }
+  .reviews-list {
+    column-gap: 28px;
+  }
 
   .reviews-list-item:last-child {
     display: block;
-  }
-
-  .reviews-list {
-    margin-bottom: 50px;
   }
 }

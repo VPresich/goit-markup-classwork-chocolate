@@ -127,13 +127,12 @@
 
 .subscribe-form {
   display: flex;
-  flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 8px;
 }
 
 .subscribe-input-email {
-  width: 207px;
+  max-width: 205px;
   background-color: transparent;
   height: 45px;
   font-size: 14px;
@@ -151,7 +150,7 @@
 
 .subscribe-button {
   cursor: pointer;
-  min-width: 120px;
+  max-width: 120px;
   height: 45px;
   font-size: 14px;
   font-weight: 600;
@@ -161,6 +160,11 @@
   border: none;
   background-color: var(--accent-color);
   color: var(--secondary-color);
+}
+@media screen and (max-width: 375px) {
+  .subscribe-form {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (min-width: 768px) {

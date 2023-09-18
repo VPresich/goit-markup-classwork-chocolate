@@ -353,7 +353,7 @@
 /* ================ /PRODUCTS ================ */
 
 /* ================ BESTSELLERS ================ */
-.bestsellers-list {
+/* .bestsellers-list {
   display: flex;
   column-gap: 16px;
 }
@@ -414,11 +414,11 @@
   border-left: 1px solid rgba(17, 17, 17, 0.1);
   background-color: #ffffff;
   color: var(--primary-color);
-}
+} */
 /* ================ /BESTSELLERS ================ */
 
 /* ================ REVIEWS ================ */
-.reviews-section-title {
+/* .reviews-section-title {
   margin-bottom: 90px;
 }
 
@@ -437,7 +437,7 @@
   padding-left: 24px;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 15px;
-  background: #ffffff;
+  background:var(--secondary-color);
   box-shadow: 0px 9.05px 100px 0px rgba(17, 17, 17, 0.03);
 }
 
@@ -478,7 +478,7 @@
   border-radius: 100px;
   border: 1px solid var(--accent-color);
   color: var(--primary-color);
-  background-color: #ffffff;
+  background-color: var(--secondary-color);
   transition: color 250ms ease-out, background-color 250ms ease-out;
 }
 
@@ -486,7 +486,7 @@
 .leave-review-btn:focus {
   color: var(--secondary-color);
   background-color: var(--accent-color);
-}
+} */
 /* ================ /REVIEWS ================ */
 
 /* ================ /FOOTER ================ */
@@ -494,7 +494,7 @@
 /* ================ /FOOter ================ */
 
 /* ================ BACKDROP ================ */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -514,12 +514,10 @@
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-}
-
-/* ================ /BACKDROP ================ */
+} */
 
 /* ================ MODAL WINDOW ================ */
-.modal {
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -549,11 +547,11 @@
 
 .close-btn-icon {
   transition: stroke 250ms ease-out;
-}
+} */
 /* ================ /MODAL WINDOW ================ */
 
 /* ================ MODAL FORM ================ */
-.review-form-description {
+/* .review-form-description {
   width: 298px;
   font-size: 24px;
   font-weight: 600;
@@ -689,5 +687,5 @@
 .review-form-submit:focus {
   color: var(--accent-color);
   background-color: #fcf1e0;
-}
+} */
 /* ================ /MODAL FORM ================ */

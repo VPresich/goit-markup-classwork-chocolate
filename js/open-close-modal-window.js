@@ -1,8 +1,8 @@
-const buttonBynowRef = document.querySelector('.buy-now-btn');
+const buttonReviewRef = document.querySelector('.leave-review-btn');
 const backdropRef = document.querySelector('.backdrop');
 const buttonCloseRef = document.querySelector('.close-btn');
 
-buttonBynowRef.addEventListener('click', () => {
+buttonReviewRef.addEventListener('click', () => {
 backdropRef.classList.add('is-open');
 });
 

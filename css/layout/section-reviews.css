@@ -97,4 +97,8 @@
   .reviews-list-item:last-child {
     display: block;
   }
+
+  .reviews-list {
+    margin-bottom: 50px;
+  }
 }

@@ -10,6 +10,9 @@
 /* LAYOUT */
 @import './layout/header.css';
 
+@import './layout/section-benefits.css';
+@import './layout/section-ingredients.css';
+
 @import './layout/section-bestsellers.css';
 @import './layout/section-reviews.css';
 @import './layout/modal-window.css';

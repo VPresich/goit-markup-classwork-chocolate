@@ -16,7 +16,6 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
@@ -502,8 +501,8 @@
         </div>
       </section>
 
-      <!-- BESTSELLERS SECTION -->
-      <!-- <section class="bestsellers section">
+      <!-- ================= BESTSELLERS SECTION ================== -->
+      <section class="bestsellers section">
         <div class="container">
           <h2 class="section-title">
             <span class="accent-color">Top</span> sellers
@@ -514,10 +513,18 @@
                 <div class="bestsellers-list-img-wrapper">
                   <img
                     class="bestsellers-list-img"
-                    src="./images/bestsellers/chocolate-with-nuts.jpg"
+                    srcset="
+                      ./images/bestsellers/chocolate-with-nuts-desktop@1x.jpg 368w,
+                      ./images/bestsellers/chocolate-with-nuts-desktop@2x.jpg 736w,
+                      ./images/bestsellers/chocolate-with-nuts-tablet@1x.jpg  344w,
+                      ./images/bestsellers/chocolate-with-nuts-tablet@2x.jpg  688w,
+                      ./images/bestsellers/chocolate-with-nuts-mobile@1x.jpg  335w,
+                      ./images/bestsellers/chocolate-with-nuts-mobile@2x.jpg  670w
+                    "
+                    sizes="(min-width:1168px) 368px, (min-width:768px) 344px,
+                   (max-width:767px) 335px"
+                    src="./images/bestsellers/chocolate-with-nuts-mobile@1x.jpg"
                     alt="chocolate with nuts"
-                    width="368"
-                    height="464"
                   />
                   <p class="overlay">
                     Chocolate with fruit is an unbeatable combination of two of
@@ -534,10 +541,16 @@
                 <div class="bestsellers-list-img-wrapper">
                   <img
                     class="bestsellers-list-img"
-                    src="./images/bestsellers/chocolate-with-fruits.jpg"
+                    srcset="
+                      ./images/bestsellers/chocolate-with-fruits-desktop@1x.jpg 368w,
+                      ./images/bestsellers/chocolate-with-fruits-desktop@2x.jpg 736w,
+                      ./images/bestsellers/chocolate-with-fruits-tablet@1x.jpg  344w,
+                      ./images/bestsellers/chocolate-with-fruits-tablet@2x.jpg  688w
+                    "
+                    sizes="(min-width:1168px) 368px, (min-width:768px) 344px,
+                   (max-width:767px) 335px"
+                    src="./images/bestsellers/chocolate-with-fruits-tablet@1x.jpg"
                     alt="chocolate with fruits"
-                    width="368"
-                    height="464"
                   />
                   <p class="overlay">
                     Chocolate with fruit is an unbeatable combination of two of
@@ -555,10 +568,14 @@
                 <div class="bestsellers-list-img-wrapper">
                   <img
                     class="bestsellers-list-img"
-                    src="./images/bestsellers/dark-chocolate.jpg"
+                    srcset="
+                      ./images/bestsellers/dark-chocolate-desktop@1x.jpg 368w,
+                      ./images/bestsellers/dark-chocolate-desktop@2x.jpg 736w
+                    "
+                    sizes="(min-width:1168px) 368px, (min-width:768px) 344px,
+                   (max-width:767px) 335px"
+                    src="./images/bestsellers/dark-chocolate-desktop@1x.jpg"
                     alt="dark chocolate"
-                    width="368"
-                    height="464"
                   />
                   <p class="overlay">
                     Chocolate with fruit is an unbeatable combination of two of
@@ -573,7 +590,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- ======================= REVIEW SECTION ====================== -->
       <section class="reviews section" id="reviews">

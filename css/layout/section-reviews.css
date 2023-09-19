@@ -120,8 +120,5 @@
   .reviews-list {
     column-gap: 28px;
   }
-
-  .reviews-list-item:last-child {
-    display: block;
-  }
+  
 }

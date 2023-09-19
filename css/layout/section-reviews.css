@@ -52,7 +52,7 @@
 
 .leave-review-btn {
   display: block;
-  width: 165px;
+  max-width: 175px;
   height: 42px;
 
   font-weight: 600;
@@ -120,5 +120,4 @@
   .reviews-list {
     column-gap: 28px;
   }
-  
 }

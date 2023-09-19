@@ -30,7 +30,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  row-gap: 32px;
+  row-gap: 24px;
+  column-gap: 18 px;
 }
 
 .buy-now-btn {
@@ -57,12 +58,13 @@
 .how-made-link {
   display: flex;
   align-items: center;
-  width: 140px;
+  justify-content: center;
+  width: 145px;
   height: 41px;
   font-size: 14px;
   font-weight: 600;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-left: 16px;
+  padding-right: 16px;
   border-radius: 100px;
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
@@ -128,6 +130,9 @@
       ),
       url('../../images/hero/bg-mobile@2x.jpg');
   }
+  .how-made-link {
+    width: 145px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -160,8 +165,8 @@
   .how-made-link {
     min-width: 183px;
     height: 45px;
-    padding-left: 38px;
-    padding-right: 38px;
+    padding-left: 36px;
+    padding-right: 36px;
   }
 
   .scroll-down-link {

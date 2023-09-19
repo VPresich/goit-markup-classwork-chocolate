@@ -13,7 +13,7 @@
 
 .benefits-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;  
   row-gap: 44px;
 }
 

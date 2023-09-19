@@ -121,7 +121,7 @@
           </a>
         </div>
       </section>
-      
+
       <!-- BENEFITS SECTION -->
       <section class="benefits">
         <div class="container benefits-container">
@@ -341,7 +341,7 @@
         </div>
       </section> -->
       <!-- HOW IT`S MADE -->
-      <!-- <section class="how-made section" id="made">
+      <section class="how-made section" id="made">
         <div class="container">
           <h2 class="section-title">
             How it’s <span class="accent-color">made</span>?
@@ -349,10 +349,18 @@
           <div class="how-made-content-wrapper">
             <img
               class="how-made-img"
-              src="./images/how-made/how-made.jpg"
+              srcset="
+                ./images/how-made/how-made-desktop@1x.jpg  600w,
+                ./images/how-made/how-made-desktop@2x.jpg 1200w,
+                ./images/how-made/how-made-tablet@1x.jpg   614w,
+                ./images/how-made/how-made-tablet@2x.jpg  1228w,
+                ./images/how-made/how-made-mobile@1x.jpg   335w,
+                ./images/how-made/how-made-mobile@2x.jpg   670w
+              "
+              sizes="(min-width:1168px) 600px, (min-width:768px) 614px,
+                   (max-width:767px) 335px"
+              src="./images/how-made/how-made-mobile@1x.jpg"
               alt="chocolate making process"
-              width="600"
-              height="400"
             />
             <div class="how-made-text-wrapper">
               <h3 class="how-made-title">
@@ -383,7 +391,7 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       <!-- OUR PRODUCTS SECTION -->
       <section class="products section">
         <div class="container">

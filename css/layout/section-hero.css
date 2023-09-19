@@ -38,7 +38,7 @@
   min-width: 120px;
   height: 41px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   padding-left: 28px;
   padding-right: 28px;
   margin-right: 14px;
@@ -62,7 +62,7 @@
   width: 145px;
   height: 41px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   padding-left: 16px;
   padding-right: 16px;
   border-radius: 100px;
@@ -130,9 +130,6 @@
       ),
       url('../../images/hero/bg-mobile@2x.jpg');
   }
-  .how-made-link {
-    width: 145px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -156,7 +153,8 @@
   }
 
   .buy-now-btn {
-    min-width: 144px;
+    min-width: 145px;
+    font-weight: 600;
     height: 45px;
     padding-left: 40px;
     padding-right: 40px;
@@ -164,6 +162,7 @@
 
   .how-made-link {
     min-width: 183px;
+    font-weight: 600;
     height: 45px;
     padding-left: 36px;
     padding-right: 36px;

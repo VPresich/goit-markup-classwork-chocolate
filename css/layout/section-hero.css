@@ -57,12 +57,12 @@
 .how-made-link {
   display: flex;
   align-items: center;
-  width: 159px;
+  width: 140px;
   height: 41px;
   font-size: 14px;
   font-weight: 600;
-  padding-left: 28px;
-  padding-right: 28px;
+  padding-left: 18px;
+  padding-right: 18px;
   border-radius: 100px;
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);

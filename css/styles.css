@@ -94,38 +94,7 @@
 /* ================ /INGREDIENTS ================ */
 
 /* ================ HOW MADE ================ */
-.how-made-content-wrapper {
-  display: flex;
-  column-gap: 20px;
-}
 
-.how-made-text-wrapper {
-  flex-grow: 1;
-  padding: 32px;
-  border-radius: 15px;
-  background-color: #ffffff;
-}
-
-.how-made-title {
-  max-width: 350px;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.33;
-  margin-bottom: 32px;
-  color: var(--primary-color);
-}
-
-.how-made-list-item {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-  color: var(--primary-color);
-}
-
-.how-made-list-item:not(:last-child) {
-  margin-bottom: 24px;
-}
 /* ================ /HOW MADE ================ */
 
 /* ================ PRODUCTS ================ */

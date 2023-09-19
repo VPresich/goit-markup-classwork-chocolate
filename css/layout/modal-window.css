@@ -16,7 +16,7 @@
   transition: opacity 500ms linear, visibility 500ms linear;
 }
 
-.is-open {
+.modal-is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;

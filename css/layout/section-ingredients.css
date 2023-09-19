@@ -66,8 +66,14 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
 }
+.ingredients-list-item:nth-child(n + 5) {
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
+  .ingredients-list-item:nth-child(n + 5) {
+    display: inline-block;
+  }
   .ingredients-section-title {
     max-width: 412px;
   }

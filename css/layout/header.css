@@ -41,14 +41,17 @@
     stroke: var(--secondary-color);
   }
 
+  .mobile-navigation {
+    /*margin-bottom: 100px; */
+  }
+
   .mobile-menu-container {
     padding-top: 134px;
     padding-bottom: 40px;
     padding-left: 40px;
     padding-right: 40px;
-
-    display: flex;
-    flex-direction: column;
+    height: 100%;
+    position: relative;
   }
 
   .mobile-nav-list {
@@ -74,9 +77,11 @@
   }
 
   .mobile-social-list {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
     display: flex;
     column-gap: 14px;
-    justify-self: flex-end;
   }
 
   .mobile-social-item {

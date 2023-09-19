@@ -186,6 +186,11 @@
       ),
       url('../../images/hero/bg-tablet@2x.jpg');
   }
+
+  .buy-now-btn {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
 }
 
 @media screen and (min-width: 1168px) {
@@ -201,10 +206,6 @@
   .main-title {
     max-width: 470px;
     letter-spacing: -0.03em;
-  }
-  .buy-now-btn {
-    padding-left: 20px;
-    padding-right: 20px;
   }
 
   .scroll-down-icon-wrapper {

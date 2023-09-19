@@ -41,10 +41,6 @@
     stroke: var(--secondary-color);
   }
 
-  .mobile-navigation {
-    /*margin-bottom: 100px; */
-  }
-
   .mobile-menu-container {
     padding-top: 134px;
     padding-bottom: 40px;
